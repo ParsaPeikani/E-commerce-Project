@@ -6,27 +6,27 @@ const SHOP_DATA = [
       items: [
             {
             id: 1,
-            name: 'Brown Brim',
-            imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/aabqIjLo_1800x1800.jpg?v=1666730806',
-            price: 25
+            name: 'TRUCKER HAT IN BLACK',
+            imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/aQH8-qc_720x.jpg?v=1666829501',
+            price: 36
             },
             {
             id: 2,
-            name: 'Blue Beanie',
-            imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-            price: 18
+            name: 'TRUCKER HAT IN MAROON',
+            imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/TgzewU-I_1080x.jpg?v=1666829631',
+            price: 36
             },
             {
             id: 3,
-            name: 'Brown Cowboy',
-            imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-            price: 35
+            name: 'PANEL HAT IN BLACK',
+            imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/LlGKJDKA_1080x.jpg?v=1666829449',
+            price: 36
             },
             {
             id: 4,
-            name: 'Grey Brim',
-            imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-            price: 25
+            name: 'PANEL HAT IN GEMSTONE',
+            imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/Oe7LNRnI_2a31415f-0b24-4289-b0ae-e59b6e7929ee_1080x.jpg?v=1666829465',
+            price: 40
             },
             {
             id: 5,

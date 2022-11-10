@@ -12,32 +12,32 @@ class Directory extends React.Component {
       sections: [
         {
           title: 'hats',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/NOK13895_5f6ec7fd-3407-4194-b10d-efd409986a6d_540x.jpg?v=1652815594',
           id: 1,
           linkUrl: 'hats'
         },
         {
-          title: 'jackets',
-          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+          title: 'hoodie',
+          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/Ygp7XTVY_720x.jpg?v=1666981416',
           id: 2,
           linkUrl: ''
         },
         {
-          title: 'sneakers',
-          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+          title: 'Tee',
+          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/6GM7cF9A_1080x.jpg?v=1666759440',
           id: 3,
           linkUrl: ''
         },
         {
           title: 'womens',
-          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/UwjmbFZk_1080x.jpg?v=1666751199',
           size: 'large',
           id: 4,
           linkUrl: ''
         },
         {
           title: 'mens',
-          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/11KRJFVw_1080x.jpg?v=1666743001',
           size: 'large',
           id: 5,
           linkUrl: ''
