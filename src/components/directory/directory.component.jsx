@@ -23,8 +23,8 @@ class Directory extends React.Component {
           linkUrl: ''
         },
         {
-          title: 'Tee',
-          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/6GM7cF9A_1080x.jpg?v=1666759440',
+          title: 'CREWNECK',
+          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/5aqPJ2MY_1080x.jpg?v=1666723306',
           id: 3,
           linkUrl: ''
         },
