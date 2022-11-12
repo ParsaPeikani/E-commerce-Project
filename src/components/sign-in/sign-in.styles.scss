@@ -1,13 +1,24 @@
 .sign-in {
-    width: 30vw;
+    width: 420px;
     display: flex;
     flex-direction: column;
+
+    .title {
+        margin: 10px 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        vertical-align:top;
+        
+    }
+    
+    .lines {
+        color: yellow;
+    }
 }
 
-.title {
-    margin: 10px 0;
-}
 
-.lines {
-    color: yellow;
-}
+
