@@ -1,6 +1,7 @@
 body {
   font-family: Abel;
   padding: 20px 60px;
+  position: relative;
 }
 
 a {
