@@ -12,6 +12,7 @@
   }
 
   .options {
+    color: yellow;
     width: 50%;
     height: 140%;
     display: flex;
@@ -20,6 +21,7 @@
     justify-content: flex-end;
 
     .option {
+      color: yellow;
       padding: 10px 15px;
       cursor: pointer;
     }
