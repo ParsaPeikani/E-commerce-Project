@@ -43,10 +43,10 @@ const COLORS = {
   });
   
 const Burst = document.addEventListener( 'click', function (e) {
-    burst1
-      .tune({ x: e.pageX, y: e.pageY })
-      .generate()
-      .replay();
+    // burst1
+    //   .tune({ x: e.pageX, y: e.pageY })
+    //   .generate()
+    //   .replay();
     const coords = { x: e.pageX, y: e.pageY };
     burst
     .tune(coords)

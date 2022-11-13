@@ -2,6 +2,8 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Burst from './components/bursting/bursting';
 
+// import Particle from './components/background/particles';
+
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
@@ -12,24 +14,23 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 
 
-
+<Burst />
 class App extends React.Component {
   constructor() {
     super();
-
+    
     this.state = {
       currentUser: null
     };
   }
-
+  
   unsubscribeFromAuth = null;
-
+  
   componentDidMount() {
-    <Burst />
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
       if (userAuth) {
         const userRef = await createUserProfileDocument(userAuth);
-
+        
         userRef.onSnapshot(snapShot => {
           this.setState({
             currentUser: {
@@ -40,7 +41,7 @@ class App extends React.Component {
 
         });
       }
-
+      
       this.setState({ currentUser: userAuth });
     });
   }
@@ -48,8 +49,9 @@ class App extends React.Component {
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
-
+  
   render() {
+    
     return (
       <div>
         <Header currentUser={this.state.currentUser}/>
