@@ -1,60 +1,23 @@
-import React from 'react';
+import React from "react";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
 
-import MenuItem from '../menu-item/menu-item.component';
+import { selectDirectorySections } from "../../redux/directory/directory.selectors";
 
-import './directory.styles.scss';
+import MenuItem from "../menu-item/menu-item.component";
 
-class Directory extends React.Component {
-  constructor() {
-    super();
+import "./directory.styles.scss";
 
-    this.state = {
-      sections: [
-        {
-          title: 'hats',
-          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/NOK13895_5f6ec7fd-3407-4194-b10d-efd409986a6d_540x.jpg?v=1652815594',
-          id: 1,
-          linkUrl: 'hats'
-        },
-        {
-          title: 'hoodie',
-          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/Ygp7XTVY_720x.jpg?v=1666981416',
-          id: 2,
-          linkUrl: ''
-        },
-        {
-          title: 'CREWNECK',
-          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/5aqPJ2MY_1080x.jpg?v=1666723306',
-          id: 3,
-          linkUrl: ''
-        },
-        {
-          title: 'womens',
-          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/UwjmbFZk_1080x.jpg?v=1666751199',
-          size: 'large',
-          id: 4,
-          linkUrl: ''
-        },
-        {
-          title: 'mens',
-          imageUrl: 'https://cdn.shopify.com/s/files/1/0866/5968/products/11KRJFVw_1080x.jpg?v=1666743001',
-          size: 'large',
-          id: 5,
-          linkUrl: ''
-        }
-      ]
-    };
-  }
+const Directory = ({ sections }) => (
+  <div className="directory-menu">
+    {sections.map(({ id, ...otherSectionProps }) => (
+      <MenuItem key={id} {...otherSectionProps} />
+    ))}
+  </div>
+);
 
-  render() {
-    return (
-      <div className='directory-menu'>
-        {this.state.sections.map(({ id, ...otherSectionProps }) => (
-          <MenuItem key={id} {...otherSectionProps} />
-        ))}
-      </div>
-    );
-  }
-}
+const mapStateToProps = createStructuredSelector({
+  sections: selectDirectorySections,
+});
 
-export default Directory;
+export default connect(mapStateToProps)(Directory);
