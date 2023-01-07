@@ -2,20 +2,24 @@ import React from "react";
 import { connect } from "react-redux";
 
 import { toggleCartHidden } from "../../redux/cart/cart.actions";
-import CartLogo from "../shopping-logo/shopping-logo"; 
+import { selectCartItemsCount } from "../../redux/cart/cart.selectors";
+import CartLogo from "../shopping-logo/shopping-logo";
 
-import './cart-icon.styles.scss';
+import "./cart-icon.styles.scss";
 
-const CartIcon = ({ toggleCartHidden }) => (
-    <div className="cart-icon" onClick={toggleCartHidden} >
-        <CartLogo className="shopping-icon" />
-        <span className="item-count"> 0 </span>
-    </div>
-)
+const CartIcon = ({ toggleCartHidden, itemCount }) => (
+  <div className="cart-icon" onClick={toggleCartHidden}>
+    <CartLogo className="shopping-icon" />
+    <span className="item-count"> {itemCount} </span>
+  </div>
+);
 
-const mapDispatchToProps = dispatch => ({
-    toggleCartHidden: () => dispatch(toggleCartHidden())
+const mapDispatchToProps = (dispatch) => ({
+  toggleCartHidden: () => dispatch(toggleCartHidden()),
 });
 
-export default connect(null, mapDispatchToProps)(CartIcon);
+const mapStateToProps = (state) => ({
+  itemCount: selectCartItemsCount(state),
+});
 
+export default connect(mapStateToProps, mapDispatchToProps)(CartIcon);

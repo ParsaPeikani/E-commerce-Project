@@ -24,20 +24,30 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bigelow+Rules&family=Iceberg&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Bigelow+Rules&family=Iceberg&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>React App</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script>{
-      (function() {
-        var info = console.info
-        console.info = function (message) {
-          if (!/Download the React DevTools/.test(message)) info.apply(console, arguments) 
-        }
-      })()
-    }</script>
+    <script>
+      {
+        (function () {
+          var info = console.info;
+          console.info = function (message) {
+            if (!/Download the React DevTools/.test(message))
+              info.apply(console, arguments);
+          };
+        })();
+      }
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- <canvas id="canvas1"></canvas>
+
+    <script src="script.js"></script> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
