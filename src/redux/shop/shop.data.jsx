@@ -34,32 +34,37 @@ const SHOP_DATA = {
       },
       {
         id: 523,
-        name: "Green Beanie",
-        imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
+        name: "PANEL HAT IN CANYON BROWN",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/i1NdrJks_720x.jpg?v=1672361963",
         price: 18,
       },
       {
         id: 623,
-        name: "Palm Tree Cap",
-        imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
+        name: "PANEL HAT IN PURPLE STONE",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/MEN-SALE-CLUB_616of1437_1080x.jpg?v=1672363054",
         price: 14,
       },
       {
         id: 7,
-        name: "Red Beanie",
-        imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
+        name: "PANEL HAT IN ORANGE",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/ezGTy7ik_1080x.jpg?v=1672361114",
         price: 18,
       },
       {
         id: 8,
-        name: "Wolf Cap",
-        imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
+        name: "PANEL HAT IN CREAM",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/MEN-SALE-CLUB_1296of1437_1080x.jpg?v=1672",
         price: 14,
       },
       {
         id: 9,
-        name: "Blue Snapback",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        name: "PANEL HAT IN CANYON",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/MEN-SALE-CLUB_372of1437_1080x.jpg?v=1672363370",
         price: 16,
       },
     ],
@@ -67,54 +72,62 @@ const SHOP_DATA = {
   hoodie: {
     id: 2,
     title: "Hoodies",
-    routeName: "sneakers",
+    routeName: "hoodies",
     items: [
       {
         id: 10,
-        name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
+        name: "PIERCE HOODIE IN COMBAT BROWN",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/hlYtVTiU_1080x.jpg?v=1672277287",
         price: 220,
       },
       {
         id: 11,
-        name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
+        name: "UTAH HOODIE IN BLACK",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/XIqh0paA_720x.jpg?v=1657737939",
         price: 280,
       },
       {
         id: 12,
-        name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
+        name: "UTAH HOODIE IN COMBAT BROWN",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/8cToLCKA_1080x.jpg?v=1657737968",
         price: 110,
       },
       {
         id: 13,
-        name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
+        name: "VINTAGE PIERCE HOODIE IN CREAM",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/8WIK1JO0_1080x.jpg?v=1672277491",
         price: 160,
       },
       {
         id: 14,
-        name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
+        name: "VINTAGE PIERCE HOODIE IN PURPLE",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/TT05VRKA_720x.jpg?v=1672277670",
         price: 160,
       },
       {
         id: 15,
-        name: "Nike Brown High Tops",
-        imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
+        name: "VINTAGE PIERCE HOODIE IN BLACK",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/U2TJ39bE_1080x.jpg?v=1672277690",
         price: 160,
       },
       {
         id: 16,
-        name: "Air Jordan Limited",
-        imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+        name: "VINTAGE PIERCE HOODIE IN CREAM",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/aQCUm6jE_1080x.jpg?v=1672277813",
         price: 190,
       },
       {
         id: 17,
-        name: "Timberlands",
-        imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
+        name: "BODYBUILDING HOODIE IN CHARCOAL",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/JVdR8nWs_1080x.jpg?v=1672278296",
         price: 200,
       },
     ],
@@ -126,32 +139,37 @@ const SHOP_DATA = {
     items: [
       {
         id: 18,
-        name: "Black Jean Shearling",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
+        name: "CREWNECK IN BLACK",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/97o3ahxk_1080x.jpg?v=1672278512",
         price: 125,
       },
       {
         id: 19,
-        name: "Blue Jean Jacket",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
+        name: "CREWNECK IN COMBAT BROWN",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/vfz5B3zk_1080x.jpg?v=1672360126",
         price: 90,
       },
       {
         id: 20,
-        name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
+        name: "LOYALTY CREWNECK IN BLACK",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/IqnYgG6A_720x.jpg?v=1672278933",
         price: 90,
       },
       {
         id: 21,
-        name: "Brown Shearling",
-        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
+        name: "LOYALTY CREWNECK IN CREAM",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/cT6fFlxY_720x.jpg?v=1672278961",
         price: 165,
       },
       {
         id: 22,
-        name: "Tan Trench",
-        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
+        name: "UNISEX CREWNECK IN PURPLE STONE",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/arP1xAA0_1080x.jpg?v=1672278837",
         price: 185,
       },
     ],
@@ -163,44 +181,51 @@ const SHOP_DATA = {
     items: [
       {
         id: 23,
-        name: "Blue Tanktop",
-        imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
+        name: "(CROPPED) TEE IN BLACK",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/SHE-SALE-CLUB_1015of1754_720x.jpg?v=1672258254",
         price: 25,
       },
       {
         id: 24,
-        name: "Floral Blouse",
-        imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
+        name: "(LS) TEE IN CHARCOAL",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/SHE-SALE-CLUB_3of1754_1080x.jpg?v=1672250760",
         price: 20,
       },
       {
         id: 25,
-        name: "Floral Dress",
-        imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
+        name: "(LS) ENERGY TOP IN BLACK",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/SHE-SALE-CLUB_861of1754_1080x.jpg?v=1672257691",
         price: 80,
       },
       {
         id: 26,
-        name: "Red Dots Dress",
-        imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
+        name: "(LS) ENERGY TOP IN PLUM",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/SHE-SALE-CLUB_58of1754_1080x.jpg?v=1672251897",
         price: 80,
       },
       {
         id: 27,
-        name: "Striped Sweater",
-        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
+        name: "SWEATER IN PURPLE STONE",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/SHE-SALE-CLUB_991of1754_1080x.jpg?v=1672258177",
         price: 45,
       },
       {
         id: 28,
-        name: "Yellow Track Suit",
-        imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
+        name: "(CROPPED) PIERCE HOODIE IN CREAM",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/SHE-SALE-CLUB_42of1754_720x.jpg?v=1672251601",
         price: 135,
       },
       {
         id: 29,
-        name: "White Blouse",
-        imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
+        name: "SPORTS BRA IN PURPLE",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/SHE-SALE-CLUB_1189of1754_1080x.jpg?v=16722594",
         price: 20,
       },
     ],
@@ -212,38 +237,44 @@ const SHOP_DATA = {
     items: [
       {
         id: 31,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        name: "OVERSIZED TEE IN BLACK/WHITE",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/nA0BR97M_1080x.jpg?v=1672256014",
         price: 325,
       },
       {
         id: 32,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        name: "MESH SHORTS IN WOLF GRAY",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/HyJlFEk_1080x.jpg?v=1672279069",
         price: 20,
       },
       {
         id: 33,
-        name: "Black &amp; White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        name: "LOUNGE SWEATS IN CHARCOAL",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/8bazh018_1080x.jpg?v=1670522530",
         price: 25,
       },
       {
         id: 34,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        name: "(DRY WOLF) RAGLAN TEE IN BLACK",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/97iVf3UA_720x.jpg?v=1672276919",
         price: 25,
       },
       {
         id: 35,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        name: "SWEAT SHORTS IN PURPLE",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/MEN-SALE-CLUB_1148of1437_1080x.jpg?v=1672356651",
         price: 40,
       },
       {
         id: 36,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        name: "OVERSIZED TEE IN BLACK",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0866/5968/products/pV7vw_OE_1080x.jpg?v=1672276027",
         price: 25,
       },
     ],
