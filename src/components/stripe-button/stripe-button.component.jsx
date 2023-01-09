@@ -17,7 +17,7 @@ const StripeCheckoutButton = ({ price }) => {
       name="Wolf Clothing Ltd."
       billingAddress
       shippingAddress
-      image="https://www.pngkit.com/png/detail/142-1425246_wolf-png-logo-transparent-library-tribal-wolf-drawing.png"
+      image="https://cdn-icons-png.flaticon.com/512/4081/4081893.png"
       description={`Your total is $${price}`}
       amount={priceForStripe}
       panelLabel="Pay Now"

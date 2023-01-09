@@ -8,18 +8,18 @@ const INITIAL_STATE = {
       linkUrl: "shop/hats",
     },
     {
-      title: "hoodie",
+      title: "hoodies",
       imageUrl:
         "https://cdn.shopify.com/s/files/1/0866/5968/products/Ygp7XTVY_720x.jpg?v=1666981416",
       id: 2,
-      linkUrl: "shop/jackets",
+      linkUrl: "shop/hoodie",
     },
     {
-      title: "CREWNECK",
+      title: "CrewNecks",
       imageUrl:
         "https://cdn.shopify.com/s/files/1/0866/5968/products/5aqPJ2MY_1080x.jpg?v=1666723306",
       id: 3,
-      linkUrl: "shop/sneakers",
+      linkUrl: "shop/CrewNeck",
     },
     {
       title: "womens",
